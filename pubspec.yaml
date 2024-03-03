@@ -1,0 +1,37 @@
+name: clone_app_amc
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  easy_date_timeline: ^1.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.4
+  flutter_svg: ^2.0.10+1
+  get_it: ^7.6.7
+  get_storage: ^2.1.1
+  carousel_slider: ^4.2.1
+  url_launcher: ^6.2.5
+  flutter_inappwebview: ^5.0.5
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+  
+    - assets/image/nav_bar/
+    - assets/image/
+    - assets/image/food_and_drink/
+    - assets/image/ad_page/
+    - assets/image/movie_image/
+  uses-material-design: true
